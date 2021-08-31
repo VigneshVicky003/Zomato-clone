@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'MetropolisRegular';
+    border: none;
+    outline: none;
+}
+*:active{
+    outline: none;
+    border: none;
+}
+header{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+/* navigation bar */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 25px 0px;
+    width: 80%;
+    margin: 0px auto;
+}
+nav div.nav-items{
+    display: flex;
+    align-items: center;
+}
+.login{
+    padding-right: 30px;
+}
+.get-app img{
+    padding-right: 5px;
+}
+.get-app{
+    display: flex;
+    align-items: center;
+    font-weight: Medium;
+    font-size: 13px;
+}
+.nav-items{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/* header content */
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 70%;
+    margin: 0px auto;
+}
+.logo{
+    width: 280px;
+}
+.content h1{
+    font-weight: normal;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 2px;
+}
+.form-container {
+    width: 70%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-container div{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 0px 5px;
+}
+div .form-container div.seperator{
+    width: 2px;
+    height: 50%;
+    background-color: #cfcfcf;
+}
+div.form-container i {
+    margin: 10px;
+}
+div.location-select i{
+    color: #f57082;
+}
+div.search-box i {
+    color: #828282b7;
+}
+div.form-container div.search-box{
+    flex-grow: 75;
+}
+div.form-container div.location-select{
+    flex-grow: 25;
+}
+div.search-box input {
+    align-self: center;
+    font-size: .9rem;
+    width: 100%;
+}
+div.location-select select {
+    flex-grow: 1;
+    font-size: .9rem;
+    color: #757575;
+}
