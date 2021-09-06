@@ -352,7 +352,7 @@ footer{
 }
 
 div.f1{
-    width: 85%;
+    width: 82%;
     margin: 0px auto;
     display: flex;
     align-items: center;
@@ -385,12 +385,13 @@ div.dropdowns div.country{
     justify-content: center;
 }
 div.f2{
-    width: 85%;
+    width: 82%;
     margin: 0px auto;
     margin-top: 40px;
     display: flex;
     align-self: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 div.f2 div.company ul{
     list-style: none;
@@ -446,4 +447,27 @@ div.f2 div.for-you ul li{
 }
 div.f2 div.for-you ul p{
     padding: 0px 0px 12px 0px;
+}
+div.social div.stores{
+    display: flex;
+    flex-direction: column;
+}
+div.social div.icons{
+    padding: 10px 0px;
+}
+div.social div.stores img{
+    padding: 10px 0px;
+    width: 50%;
+}
+/* f3 */
+div.f3{
+    width: 82%;
+    margin: 0px auto;
+    border-top: grey solid 1px;
+}
+div.f3 p{
+    font-size: 13.5px;
+    color: grey;
+    margin-top: 1.5rem;
+    line-height: 15px;
 }
