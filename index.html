@@ -8,7 +8,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
         <script src="https://kit.fontawesome.com/b862bb0d81.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/metropolis" type="text/css"/>
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
         <title>Not Zomato</title>
@@ -24,10 +23,13 @@
                         <div class="login">Log in</div>
                         <div class="signup">Sign Up</div>
                     </div>
+                    <div class="profile">
+                        <i class="fas fa-user"></i>
+                    </div>
             </nav>
             <div class="content">
-                <img src="assets\logo.webp" alt="logo" class="logo">
-                <h1>Discover the best food & drinks in <b>Villupuram</b></h1>
+                <img class="logo" src="assets\logo.webp" alt="zomato logo">
+                <h6>Discover the best food & drinks in<br>Villupuram</br></h6>
                 <div class="form-container">
                     <div class="location-select">
                         <i class="fas fa-map-marker-alt"></i>
@@ -59,7 +61,7 @@
                 <img src="assets\app.png" alt="not zomato app image">
                 <div class="form">
                     <h1>Get the Zomato App</h1>
-                    <p>We will send you a link, open it on your phone to download <br> the app</p>
+                    <p>We will send you a link, open it on your phone to download the app</p>
                     <div class="radio">
                         <div>
                             <input type="radio" id="email" name="radio-group" checked>
@@ -73,7 +75,8 @@
 
                     <div class="input">
                         <input type="email" placeholder="Email">
-                        <button>Share App Link</button>
+                        <button class="d">Share App Link</button>
+                        <button class="p">Share</button>
                     </div>
 
                     <div class="download">
@@ -90,107 +93,74 @@
                 <h2>Explore other options for you here</h2>
                 <div>
                 <h3>Popular cuisines near me</h3>
-                <ul>
-                    <li>
-                        <a href="#">American food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">BBQ food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Bar food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Burger food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Cafe food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Chinese food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Coffee and Tea food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Desserts food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">German food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Greek food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Ice Cream food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Italian food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Japanese food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Mexican food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Pizza food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Sandwich food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Seafood food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Steak food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Sushi food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Tea food near me</a>
-                    </li>
-                </ul>
+                <div class="items">
+                    <a href="https://www.zomato.com/american-restaurants-near-me">American food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/bbq-restaurants-near-me">BBQ food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/bar-food-restaurants-near-me">Bar food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/burger-restaurants-near-me">Burger food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/cafe-restaurants-near-me">Cafe food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/chinese-restaurants-near-me">Chinese food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/coffee-and-tea-restaurants-near-me">Coffee and Tea food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/desserts-restaurants-near-me">Desserts food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/german-restaurants-near-me">German food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/greek-restaurants-near-me">Greek food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/ice-cream-restaurants-near-me">Ice Cream food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/italian-restaurants-near-me">Italian food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/japanese-restaurants-near-me">Japanese food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/mexican-restaurants-near-me">Mexican food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/pizza-restaurants-near-me">Pizza food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/sandwich-restaurants-near-me">Sandwich food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/seafood-restaurants-near-me">Seafood food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/steak-restaurants-near-me">Steak food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/sushi-restaurants-near-me">Sushi food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/tea-restaurants-near-me">Tea food near me</a>
                 </div>
-            <div>
+                </div>
+                <div>
                 <h3>Popular restaurant types near me</h3>
-                <ul>
-                    <li>
-                    <a href="#">Bakeries near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Bars near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Cafés near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Casual Dining near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Dessert Shops near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Fast Casual near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Fast Food near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Pizzerias near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Quick Bites near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Sandwich Shops near me</a>
-                    </li>
-                    <li>
-                        <a href="#">Taquerias near me</a>
-                    </li>
-                </ul>
-            </div>
+                <div class="items">
+                    <a href="https://www.zomato.com/bakeries-near-me">Bakeries near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/bars-near-me">Bars near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/cafes-near-me">Cafés near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/casual-dining-near-me">Casual Dining near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/dessert-parlor-near-me">Dessert Shops near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/fast-casual-near-me">Fast Casual near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/fast-food-near-me">Fast Food near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/pizzerias-near-me">Pizzerias near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/quick-bites-near-me">Quick Bites near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/sandwich-shops-near-me">Sandwich Shops near me</a>
+                    <span></span>
+                    <a href="https://www.zomato.com/taquerias-near-me">Taquerias near me</a>
+                </div>
+                </div>
             </div>
         </section>
         <footer>
@@ -339,12 +309,13 @@
                     </ul>
                 </div>
                 <div class="social">
-                    <p>SOCIAL LINKS</p>
+                    <p class="d">Social Links</p>
                     <div class="icons">
                         <img src="https://img.icons8.com/ios-filled/25/000000/facebook-circled--v1.png"/>
                         <img src="https://img.icons8.com/ios-filled/25/000000/twitter-circled.png"/>
-                        <img src="https://img.icons8.com/ios-filled/25/000000/twitter-circled.png"/>
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-circle.png"/>
                     </div>
+                    <p class="p">Social Links</p>
                     <div class="stores">
                     <img src="assets\appStore.png" alt="Download from AppStore">
                     <img src="assets\playStore.png" alt="Download from PlayStore">
