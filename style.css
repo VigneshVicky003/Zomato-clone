@@ -145,12 +145,13 @@ div.content{
         padding-left: 5px;
     }
     .location-select select {
-        /* position: relative; */
+        position: relative;
         font-weight: 500;
-        /* flex-grow: 1; */
+        flex-grow: 1;
         font-size: 12px;
         color: black;
         /* padding-right:180px; */
+        padding-left: 12px;
         margin: 0px auto;
     }
     .app-img{
@@ -366,7 +367,7 @@ section.app div.input input{
 section.app div.input ::placeholder{
     color: #cfcfcf;
 }
-@media (min-width:768px){
+@media (max-width:768px){
     .input button.d{
         display: none;
     }
@@ -567,7 +568,7 @@ footer{
         width: 42vw;
         margin-bottom:30px;
     }
-    div.f2 div.for-restaurantsi a{
+    .for-restaurantsi a{
         text-decoration: none;
         color: grey;
     }
@@ -644,13 +645,13 @@ footer{
 }
 
 /* for medium screens */
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .content{
         /* background-color: red; */
         max-height: 60%;
     }
     .get-app{
-        /* display: none;  */
+        display: none; 
         visibility: hidden;
     }
     .profile{
@@ -664,7 +665,9 @@ footer{
         margin-top: 10px;
     }
     nav{
-        width: 92%;
+        width: 92vw !important;
+        display: flex;
+        flex-grow: 1;
     }
     .logo{
         width: 280px;
@@ -855,6 +858,7 @@ footer{
         padding-top: 30px;
     }
     .get-app{
+        display: flex;
         visibility: visible;
         font-size: 18px;
         font-weight: 500;
@@ -970,7 +974,7 @@ footer{
         width: 22% !important;
         height: 60px !important;
         border-radius: 9px !important;
-        font-size: 18px !important;
+        font-size: 16px !important;
         /* padding: 20px; */
     }
     .input button.p{
